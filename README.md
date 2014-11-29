@@ -1,9 +1,12 @@
 PythonDjangoTut
 ===============
 
-Just me trying to learn and play with Django and Python
+To run my poll application, from directory mysite run 
+
+python manage.py runserver
+
+The above command should produce a URL, use your browser and enter the address and then append /polls or /admin to the end. e.g. http://127.0.0.1/polls
 
 
-The instructions for this tutorial exercise can be found @ https://docs.djangoproject.com/en/dev/intro/tutorial01/
 
-TODO idea: integrate docker and vagrant to this tutorial as well?
+
